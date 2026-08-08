@@ -96,6 +96,32 @@
   .list h2{font-size:17px;font-weight:500;letter-spacing:.01em;line-height:1.4}
   .list p{font-size:15.5px;color:var(--mist);margin-top:4px;max-width:55ch}
 
+
+  /* ---------- example ---------- */
+  .example-card{
+    margin-top:28px;
+    padding:20px 0 22px;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .example-label{
+    font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--mist);font-weight:400;margin-bottom:10px;
+  }
+  .example-content{
+    display:flex;align-items:center;justify-content:space-between;gap:22px;
+  }
+  .example-content h2{font-size:17px;font-weight:500;letter-spacing:.01em;line-height:1.4}
+  .example-content p{font-size:15.5px;color:var(--mist);margin-top:4px;max-width:48ch}
+  .example-content a{
+    flex:none;color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;
+    letter-spacing:.02em;border-bottom:1px solid var(--line);padding-bottom:3px;
+  }
+  .example-content a:hover{border-bottom-color:var(--ink)}
+  @media (max-width:560px){
+    .example-content{align-items:flex-start;flex-direction:column;gap:12px}
+  }
+
   /* ---------- close ---------- */
   .note{
     margin-top:38px;font-family:var(--display);font-size:21px;line-height:1.5;
@@ -150,7 +176,7 @@
 
   <section>
     <h1 class="r d2">Que tu agenda <span class="grad">se llene sola</span>.</h1>
-    <p class="lede r d3">Trabajo con negocios locales en la Ciudad de México. Armo el sitio, las reservas y los anuncios en un solo sistema, para que entren más citas sin cargarle más trabajo a tu equipo.</p>
+    <p class="lede r d3">Trabajo con salones, estudios, lugares de belleza y otros negocios locales en la Ciudad de México. Armo el sitio, las reservas y los anuncios en un solo sistema, para que entren más citas sin cargarle más trabajo a tu equipo.</p>
   </section>
 
   <section>
@@ -189,6 +215,17 @@
         <p>Ordeno la información de tu negocio para que ChatGPT y las búsquedas con IA lo entiendan bien.</p>
       </div></li>
     </ul>
+
+    <div class="example-card r d5">
+      <p class="example-label">Ejemplo de trabajo</p>
+      <div class="example-content">
+        <div>
+          <h2>Lalolita Beauty</h2>
+          <p>Catálogo de servicios y precios, presencia digital y sistema de reservaciones.</p>
+        </div>
+        <a href="https://angugo06.github.io/LalolitaNails" target="_blank" rel="noopener">Ver ejemplo <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
   </section>
 
   <section>
